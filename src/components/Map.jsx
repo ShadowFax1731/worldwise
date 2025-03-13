@@ -12,8 +12,8 @@ import styles from "./Map.module.css";
 import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import { useGeolocation } from "../hooks/useGeolocation";
-import Button from "./Button";
 import { useURLLocation } from "../hooks/useURLLocation";
+import Button from "./Button";
 
 function Map() {
   const { cities } = useCities();
@@ -23,7 +23,6 @@ function Map() {
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
-
   const [mapLat, mapLng] = useURLLocation();
 
   useEffect(
