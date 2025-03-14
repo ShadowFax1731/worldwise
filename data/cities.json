@@ -1,3 +1,16 @@
 {
-  "cities": []
+  "cities": [
+    {
+      "id": "64a9",
+      "cityName": "Helechosa de los Montes",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-03-13T22:23:20.766Z",
+      "notes": "test",
+      "position": {
+        "lat": "39.317300373271024",
+        "lng": "-4.94384765625"
+      }
+    }
+  ]
 }
